@@ -10,8 +10,6 @@ float y;
 float step = 0.01;    
 float pct = 0.0;      
 
-
-
 void basketball() {
   fill(0, 2);
   rect(0, 0, width, height);
@@ -22,10 +20,6 @@ void basketball() {
   }
   fill(204,100,0);
   ellipse(x, y, 50, 50);
-  fill(0);
-  rect(x,y-25,2,50);
- 
-  
 }
 
 void mousePressed() {
