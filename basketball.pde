@@ -18,6 +18,7 @@ void basketball() {
     x = beginX + (pct * distX);
     y = beginY + (pow(pct, exponent) * distY);
   }
+  noStroke();
   fill(204,100,0);
   ellipse(x, y, 50, 50);
 }
@@ -30,7 +31,5 @@ void mousePressed() {
   endY = mouseY+(775.0-mouseY);
   distX= endX-beginX;
   distY=endY-beginY;
-  //loop this so it resets after each mouse click
-  //?cool down timer?(holiday card)
-  //if clicked->(mousepresscode)THEN beginx,y
+ 
 }
